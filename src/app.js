@@ -22,18 +22,18 @@ let generarExcusa = () => {
     "mientras rezaba"
   ];
 
-  let quienIndex = Math.floor(Math.random() * quien.length);
-  let verboIndex = Math.floor(Math.random() * verbo.length);
-  let queIndex = Math.floor(Math.random() * que.length);
-  let cuandoIndex = Math.floor(Math.random() * cuando.length);
+  let quienAl = Math.floor(Math.random() * quien.length);
+  let verboAl = Math.floor(Math.random() * verbo.length);
+  let queAl = Math.floor(Math.random() * que.length);
+  let cuandoAl = Math.floor(Math.random() * cuando.length);
 
   return (
-    quien[quienIndex] +
+    quien[quienAl] +
     " " +
-    verbo[verboIndex] +
+    verbo[verboAl] +
     " " +
-    que[queIndex] +
+    que[queAl] +
     " " +
-    cuando[cuandoIndex]
+    cuando[cuandoAl]
   );
 };
